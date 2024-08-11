@@ -1,0 +1,40 @@
+nav{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+body{
+    background: url(background.image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body video{
+    size:none;
+    width:500px;
+    height: 400px;
+}
+section{
+    padding: 30px;
+}
+footer{
+    background-color: rgb(165, 165, 191);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
